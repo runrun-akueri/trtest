@@ -1,0 +1,241 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, a, div, iframe, footer, dd {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/*以下、header.html*/
+.gn-body p {
+  font-size: 10px;
+  color: #696969;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.gn-body1 {
+  display: flex;
+  justify-content: center;
+}
+
+.gn-body1 img {
+  height: 150px;
+}
+
+.gn-body2 {
+  display: flex;
+  justify-content: center; 
+}
+
+.slide-bnr {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newitem {
+  margin-top: 30px;
+}
+
+/*ここから上スライダー */
+.swiper-container {
+  margin: 0 auto;
+  width: 950px;
+  height: 350px;
+}
+/*ここまで上スライダー */
+
+/*ここからslider2*/
+.slide2 {
+  height: 250px;
+}
+
+.swiper-slide a {
+  display: block;
+  background-color: #d3d3d3;
+  height: 250px;/*上のheigth上書き必要*/
+  line-height: 250px;
+  font-size: 14px;
+}
+
+.bnr {
+  text-align: center;
+}
+
+.bnr a {
+  margin-top: 10px;
+  display: inline-block;
+}
+/*ここまでheader.html*/
+
+/*以下sidenav.html*/
+.side-nav {
+  width: 200px;
+}
+
+.side-nav img {
+  margin-bottom: 10px;
+}
+
+.search {
+  display: inline-block;
+  padding-top: 5px; 
+}
+
+
+.accordion li {
+   border-bottom: dashed 1px #808080;
+}
+
+.accordion a {
+  font-size: 13px;
+  display: block;
+}
+
+/*ここまでsidenav.html*/
+
+/*以下contents.html*/
+.contents {
+  width: 700px;
+}
+
+.recommend-item {
+  float: left;
+}
+
+.info img {
+  margin-top: 5px
+  width: 700px;
+}
+
+.info .first {
+  margin-top: 0;
+}
+
+.contents-bar {
+  margin: 30px 0 20px;
+  width: 700px;
+}
+
+.box-bnr img {
+  width: 24%;
+ }
+
+/*以下、footer*/
+footer {
+  width: 950px;
+  margin: 0 auto;
+}
+
+
+.shoplist {
+  padding: 20px 0 20px 20px;
+  background-color: #dcdcdc;
+}
+
+.shoplist dl  {
+  width:270px;
+  margin: 0 20px 15px;
+  float: left;
+}
+
+.shoplist dt ,.guide dt ,.guide_r dt {
+  border-bottom: solid 1px #696969;
+  padding-bottom: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #191970;
+}
+
+.shoplist dd ,.guide dd ,.guide_r dd{
+  font-size: 11px;
+  text-align: left;
+}
+
+.guidebox {
+  display: flex;
+  margin-top: 30px;
+  padding: 20px 0 20px 20px;
+  border: solid 2px #191970;
+  background-color: #d3d3d3;
+}
+
+.guide dl ,.guide_r dl {
+  width:270px;
+  margin: 0 20px 15px;
+  background-color: #dcdcdc;
+}
+
+.guide dd ,.guide_r dd {
+
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.cr {
+  padding: 20px
+}
+
+/*以下、全体aのhover*/
+a:hover {
+opacity: 0.5;
+}
+
+.card-body li:hover {
+  background-color: yellow;
+}
+
+/*ここまで、全体aのhover*/
+
+.header {
+  width: 950px;
+  height: 2063px;
+}
+
+.header-wrapper {
+  text-align: center;
+}
+
+.slider2 {
+  width: 950px;
+  height: 250px;
+}
+
+.slider2-wrapper {
+  text-align: center;
+}
+
+.sidenav {
+  width: 200px;
+  height: 2360px;
+}
+
+.sidenav-wrapper {
+  margin-right: 50px;
+}
+
+.contents {
+  width: 700px;
+  height: 3830px;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-ifame {
+  width: 955px;
+  height: 1370px;
+}
+
+.footer-wrapper {
+  text-align: center;
+}
